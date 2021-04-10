@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    max-width: 100%;
+    margin-left: 110px;
+    display: flex;
+}
+
+.col-8 {
+    width: 30%;
+    margin-top: 100px;
+    background-color: rgb(190, 190, 190);
+    padding: 20px;
+}
+
+.col-4 {
+    width: 50%;
+    margin-top: 300px;
+    margin-left: 80px;
+}
+
+.profile h1 {
+    font-size: 20px;
+    color: rgb(31, 131, 231);
+}
+
+.profile p {
+    font-size: 15px;
+}
+
+.contact h1{
+    font-size: 20px;
+    color: rgb(31, 131, 231); 
+}
+
+.contact p {
+    font-size: 15px;
+}
+
+.hobbies h1 {
+    font-size: 20px;
+    color: rgb(31, 131, 231); 
+}
+
+.hobbies li {
+    list-style: none;
+}
+
+.name h1, h2{
+   font-size: 60px;
+   letter-spacing: 5px;
+}
+
+.name h1, h2 {
+    margin-top: -25px;
+}
+
+.name small{
+   font-size: 25px;
+   position: relative;
+   top: -15px;
+}
+
+.education h1{
+    border-bottom: 2px solid rgb(31, 131, 231);
+    width: 70%;
+    font-size: 20px;
+}
+
+.education p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.education small {
+    font-size: 15px;
+}
+
+.work h1 {
+    border-bottom: 2px solid rgb(31, 131, 231);
+    width: 70%;
+    font-size: 20px; 
+}
+
+.work h3 {
+    font-weight: bold;
+    font-size: 20px; 
+}
+
+.work p {
+    margin-top: -15px;
+}
+
+.work-1{
+    position: relative;
+    top: 20px;
+}
+
+.work-1 h1 {
+    font-weight: bold;
+    font-size: 20px;  
+}
+
+.work-1 p {
+    margin-top: -10px;
+}
+
+.work-2 {
+   position: relative;
+   top: 20px;
+}
+
+.work-2 h1 {
+    font-weight: bold;
+    font-size: 20px; 
+}
+
+.work-2 p{
+    margin-top: -10px;
+}
+
+.skills h1{
+    position: relative;
+    top: 40px;
+    border-bottom: 2px solid rgb(31, 131, 231);
+    width: 70%;
+}
+
+.skills li {
+    list-style: none;
+    position: relative;
+    bottom: -30px;
+}
